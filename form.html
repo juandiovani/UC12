@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- tag para formulários -->
+    <form action="">
+         <h1>Formulário de Cadastro</h1>
+         <label for="nome"></label><!-- Dá um título para o campo abaixo-->
+         <input type="text" name="nome" id=""><!-- Input é o campo onde vamos escrever algo -->
+
+         <label for="email">Email</label>
+         <input type="email" name="email" id="">
+
+         <label for="senha">Senha</label>
+         <input type="password" name="senha" id="">
+
+         <label for="escolhas">O que você sabe?</label>
+         <input type="checkbox" name="escolhas" value="JS" id="">JS
+         <input type="checkbox" name="escolhas" value="html" id="">html
+         <input type="checkbox" name="escolhas" value="CSS" id="">CSS
+
+         <label for="genero">Genero</label>
+          <input type="radio" name="genero" value="Homem" id="">Homem
+          <input type="radio" name="genero" value="Mulher" id="">Mulher
+          <input type="radio" name="genero" value="Mulher Trans" id="">Mulher Trans
+          <input type="radio" name="genero" value="Homem Trans" id="">Homem Trans
+          <input type="radio" name="genero" value="Outro" id="">Outro
+          <input type="radio" name="genero" value="Não binário" id="">Não Binário
+          <input type="radio" name="genero" value="Prefiro não opinar" id="">Prefiro não opinar
+
+          <!-- Select (lista suspensa) -->
+           <label for="curso">Curso Desejado</label><br>
+           <select name="curso" id="">
+                <option value="html">html</option>
+                <option value="js">JS</option>
+                <option value="css">CSS</option>
+           </select>
+
+              <!-- Textarea -->           
+           <label for="mensagem">Mensagem</label>
+           <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
+
+           <label for="nascimento">Data de Nascimento</label>
+           <input type="date" name="nascimento" id="">
+            
+            <!-- Botão de envio -->
+             <button type="submit">Enviar</button>         
+    </form>
+
+</body>
+</html>
