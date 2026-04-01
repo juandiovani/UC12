@@ -1,0 +1,37 @@
+/* 
+  CSS aplica estilos de acordo com a tag
+*/ 
+
+/*
+   Exemplo: se eu quiser trocar a cor de fundo da página,
+   posso utilizar o seletor 'body'
+
+   body {
+     estilo que quero aplicar
+   }
+*/
+body{
+    background-color: red; /* troca a cor de fundo */
+    color: white;/* troca a cor do texto */
+    font-family: Arial, Helvetica, sans-serif; /* troca o estilo das fontes*/ 
+}
+
+img {
+    width: 500px; /* largura do elemento */
+
+}
+
+button {
+    background-color: yellow(0, 121, 169); 
+    border: none;/* cantos arredondados*/
+    border-radius: 5px;/* */
+    color: orange(255, 179, 0);
+    /* cima dir baixo esq*/
+    padding: 5px 10px 5px 10px; /* muda o icone */
+}
+
+button:hover {
+    background-color: red(0, 162, 227);
+    color: black;
+    cursor: pointer;
+}
