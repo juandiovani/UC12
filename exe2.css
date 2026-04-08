@@ -1,0 +1,8 @@
+div {
+    width: 200px;
+    background-color: azure;
+    padding: 20px;
+    border: 2px;
+    box-sizing: border-box;
+}
+
